@@ -1,0 +1,12 @@
+.band {
+	margin: 5px;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.band img {
+	border: 2px solid #dfdfdf;
+	width: 100%;
+	height: auto;
+}

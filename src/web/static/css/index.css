@@ -1,0 +1,295 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url('Montserrat-Regular.ttf') format('truetype');
+}
+
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+input {
+	font-size: 16px;
+}
+
+body {
+	font-family: 'Montserrat';
+	background-color: #F8F8F8;
+	color: #000000;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+header {
+	background-color: #fff;
+}
+
+nav {
+	background-color: #fff;
+	border-bottom: 2px solid #ebebeb;
+}
+
+.logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+.logo a {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+.menu {
+	display: block;
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+  
+.menu a {
+	float: left;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width: 25%;
+	color: #000;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+.menu span {
+	display: block;
+}
+
+.menu a:hover {
+	background-color: #ebebeb;
+	color: black;
+}
+
+.menu .hello:hover {
+	background-color: #fff;
+}
+
+.menu a.active {
+	background-color: #EA5E3D;
+	color: #fff;
+}
+
+.menu .dropdown {
+	float: left;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width: 25%;
+	color: #000;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #fff;
+	min-width: 160px;
+	width: 12.5%;
+	z-index: 1;
+	border-top: 2px solid #ebebeb;
+}
+  
+.dropdown:hover .dropdown-content {
+	display: block;
+	margin-top: 12px;
+}
+
+.dropdown:hover{
+	background-color: #ebebeb;
+}
+
+.menu .dropdown .dropdown-content a {
+	width: 100%;
+	padding: 16px;
+	display: inline;
+}
+
+main {
+	display: block;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+}
+
+.content {
+	margin-top: 10px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	overflow: hidden; 
+}
+
+.halfContent {
+	float: left;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width: 50%;
+}
+
+.bandEntrance {
+	background-color: #EA5E3D;
+	border: 2px solid #dfdfdf;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.bandEntrance:hover {
+	border: 2px solid #000000;
+}
+
+.bandEntrance img {
+	width: 100%;
+	height: auto;
+}
+
+.bandEntranceDescription {
+	color: #fff;
+	padding: 16px;
+	text-align: center;
+	font-size: 24px;
+}
+
+.galleryEntrance {
+	color: #fff;
+	padding: 20px;
+	font-size: 24px;
+	background-color: #EA5E3D;
+	border: 2px solid #dfdfdf;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 10px;
+	overflow: hidden;
+	text-align: center;
+}
+
+.galleryEntrance:hover {
+	border: 2px solid #000000;
+}
+
+.gallery {
+	color: #fff;
+	padding: 20px;
+	padding-bottom: 0px;
+	font-size: 24px;
+	background-color: #EA5E3D;
+	border: 2px solid #dfdfdf;
+	border-bottom: 0px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 10px;
+	overflow: hidden;
+	text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.text {
+	color: #fff;
+	padding: 20px;
+	font-size: 24px;
+	background-color: #EA5E3D;
+	border: 2px solid #dfdfdf;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 10px;
+	overflow: hidden;
+	text-align: justify;
+}
+
+button {
+  background-color: #ebebeb;
+  border: 2px solid #dfdfdf;
+  cursor: pointer;
+  color: #000000;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+}
+
+button:hover {
+	border: 2px solid #000000;
+}
+
+footer {
+	border-top: 2px solid #ebebeb;
+	background-color: #fff;
+	color: #000;
+	margin-top: 10px;
+	padding: 5px;
+	height: 50px;
+	text-align: center;
+	font-size: 18px;
+}
+
+label {
+	cursor: pointer;
+}
+
+#upload {
+	opacity: 0;
+	position: absolute;
+	z-index: -1;
+}
+
+@media only screen and (max-width: 768px) {
+	.galleryDesc {
+		padding: 8px;
+		font-size: 18px;
+	}
+	main {
+		width: 100%;
+	}
+	.logo {
+		width: 75%;
+	}
+	.menu {
+		width: 100%;
+	}
+	.menu a {
+		width: 50%;
+	}
+	.menu .dropdown{
+		width: 50%;
+	}
+	.dropdown-content {
+		width: 50%;
+	}
+	.text {
+		font-size: 18px;
+	}
+	button {
+		font-size: 18px;
+		padding: 8px;
+	}
+	footer {
+		font-size: 18px;
+	}
+}
